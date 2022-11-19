@@ -21,41 +21,30 @@ StyleMap: 0x0040
 FSType: 8
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
-OS2_UseTypoMetrics: 0
+OS2_UseTypoMetrics: 1
 CreationTime: 1272898488
-ModificationTime: 1668745276
-PfmFamily: 17
+ModificationTime: 1668826049
+PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 0
 VLineGap: 0
-Panose: 2 0 5 0 0 0 0 0 0 0
-OS2TypoAscent: 1445
-OS2TypoAOffset: 0
-OS2TypoDescent: -423
-OS2TypoDOffset: 0
-OS2TypoLinegap: 205
-OS2WinAscent: 1844
-OS2WinAOffset: 0
-OS2WinDescent: 749
-OS2WinDOffset: 0
-HheadAscent: 1844
-HheadAOffset: 0
-HheadDescent: -749
-HheadDOffset: 0
-OS2SubXSize: 1434
-OS2SubYSize: 1331
-OS2SubXOff: 0
-OS2SubYOff: 283
-OS2SupXSize: 1434
-OS2SupYSize: 1331
-OS2SupXOff: 0
-OS2SupYOff: 977
-OS2StrikeYSize: 102
-OS2StrikeYPos: 530
-OS2CapHeight: 1434
-OS2XHeight: 1024
-OS2Vendor: 'FF  '
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 256
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2CapHeight: 1344
+OS2XHeight: 1344
+OS2Vendor: 'MPDX'
 OS2CodePages: 20000111.41000000
 OS2UnicodeRanges: 800000a7.5000004a.00000000.00000000
 Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "'liga' Standard Ligatures lookup 0 subtable"  } ['liga' ('DFLT' <'dflt' > 'hani' <'dflt' > 'kana' <'dflt' > 'latn' <'dflt' > ) ]
@@ -113,7 +102,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 32 16 8
+WinInfo: 0 16 8
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2856,7 +2845,7 @@ StartChar: X
 Encoding: 88 88 59
 Width: 1024
 GlyphClass: 2
-Flags: W
+Flags: WO
 LayerCount: 2
 Back
 SplineSet
@@ -2875,27 +2864,27 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-522 778 m 261,0,-1
- 672 928 l 262,1,2
- 832 1088 832 1088 832 1280 c 263,3,4
+522 778 m 257,0,-1
+ 672 928 l 258,1,2
+ 832 1088 832 1088 832 1280 c 259,3,4
  832 1344 832 1344 896 1344 c 287,5,6
- 960 1344 960 1344 960 1280 c 263,7,8
- 960 1024 960 1024 768 832 c 262,9,-1
- 598 662 l 261,10,-1
- 960 120 l 262,11,12
- 993.276230869 70.1775769869 993.276230869 70.1775769869 937 34 c 260,13,14
- 881.278217249 -1.82114605441 881.278217249 -1.82114605441 848 48 c 262,15,-1
- 502 566 l 261,16,-1
- 352 416 l 262,17,18
- 192 256 192 256 192 64 c 263,19,20
- 192 0 192 0 128 0 c 287,21,22
- 64 0 64 0 64 64 c 263,23,24
- 64 320 64 320 256 512 c 262,25,-1
- 426 682 l 261,26,-1
- 64 1224 l 262,27,28
- 30 1275 30 1275 86 1311 c 260,29,30
- 141.954080648 1346.97048042 141.954080648 1346.97048042 176 1296 c 262,31,-1
- 522 778 l 261,0,-1
+ 960 1344 960 1344 960 1280 c 259,7,8
+ 960 1024 960 1024 768 832 c 258,9,-1
+ 598 662 l 257,10,-1
+ 960 120 l 258,11,12
+ 993.276230869 70.1775769869 993.276230869 70.1775769869 937 34 c 256,13,14
+ 881.278217249 -1.82114605441 881.278217249 -1.82114605441 848 48 c 258,15,-1
+ 502 566 l 257,16,-1
+ 352 416 l 258,17,18
+ 192 256 192 256 192 64 c 259,19,20
+ 192 0 192 0 128 0 c 283,21,22
+ 64 0 64 0 64 64 c 259,23,24
+ 64 320 64 320 256 512 c 258,25,-1
+ 426 682 l 257,26,-1
+ 64 1224 l 258,27,28
+ 30 1275 30 1275 86 1311 c 256,29,30
+ 141.954080648 1346.97048042 141.954080648 1346.97048042 176 1296 c 258,31,-1
+ 522 778 l 257,0,-1
 EndSplineSet
 EndChar
 
@@ -5248,7 +5237,7 @@ StartChar: copyright
 Encoding: 169 169 102
 Width: 1536
 GlyphClass: 2
-Flags: WO
+Flags: W
 LayerCount: 2
 Back
 SplineSet
@@ -5718,13 +5707,13 @@ EndChar
 
 StartChar: AE
 Encoding: 198 198 123
-Width: 2196
+Width: 1792
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 Refer: 36 65 N 1 0 0 1 0 0 0
-Refer: 40 69 S 1 0 0 1 652 0 0
+Refer: 40 69 N 1 0 0 1 652 0 0
 EndChar
 
 StartChar: Ccedilla
